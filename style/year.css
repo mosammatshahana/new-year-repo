@@ -1,3 +1,134 @@
-body{
-    font-family: "Work Sans", sans-serif;
+/* Global styles */
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0px;
+}
+/* header styles */
+.header {
+  background-image: url("../images/banner/banner2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+}
+.btn-primary {
+  background: #f15b22;
+  color: white;
+  border-radius: 5px;
+  border: 0;
+  padding: 21px 25px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 32px;
+  margin-bottom: 187px;
+}
+.banner-content {
+  text-align: right;
+  margin: 216px 230px 0px 845px;
+}
+.header-title {
+  color: rgb(21, 20, 20);
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.banner-description {
+  color: rgb(68, 67, 67);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+/* main styles */
+main {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+/* Failure */
+.my-failure {
+  display: flex;
+  margin-top: 130px;
+  gap: 87px;
+}
+.failure-text {
+  margin-top: 235px;
+}
+.failure-title {
+  color: rgb(21, 20, 20);
+  font-size: 40px;
+  font-weight: 700;
+}
+.failure-description {
+  color: rgb(68, 67, 67);
+  font-size: 16px;
+  font-weight: 400;
+}
+.list {
+  color: rgb(68, 67, 67);
+  font-size: 16px;
+  font-weight: 400;
+}
+/* Plans */
+.plan {
+  display: flex;
+  gap: 86px;
+}
+.plan-title {
+  color: rgb(21, 20, 20);
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 481px;
+  margin-bottom: 0px;
+}
+.plan-image {
+  margin-left: 90px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+.plan-site {
+  color: rgb(21, 20, 20);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  /* margin-left: 30px; */
+}
+.plan-description {
+  color: rgb(115, 114, 114);
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.mindset-img {
+  
+}
+.mindset{
+    display: flex;
+    background: url("../images/watch.png");
+    background-repeat: no-repeat;
+}
+.mindset-title {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 700;
+}
+.mindset-btn {
+  color: rgb(241, 91, 34);
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  padding: 20px 36px;
+}
+
+.footer{ 
+    display: flex;
+    
+    color: white;
+    background-color: black;
+    padding: 130px 230px;
+    gap: 330px;
 }
