@@ -85,6 +85,7 @@ main {
   margin-left: 90px;
   margin-top: 50px;
   margin-bottom: 0px;
+  
 }
 .plan-site {
   color: rgb(21, 20, 20);
@@ -92,7 +93,7 @@ main {
   font-weight: 700;
   text-align: center;
   margin-top: 24px;
-  margin-bottom: 0px;
+  margin-bottom: 16px;
   /* margin-left: 30px; */
 }
 .plan-description {
@@ -100,20 +101,23 @@ main {
   font-size: 25px;
   font-weight: 500;
   text-align: center;
-  margin-top: 16px;
-}
-
-.mindset-img {
+  margin-top: 0px;
+  margin-bottom: 124px;
 }
 .mindset {
-  display: flex;
-  background: url("../images/watch.png");
+  background: url("../images/gradient2.png"), url("../images/watch.png");
   background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+.mindset-content {
+  padding: 50px 617px 59px 64px;
 }
 .mindset-title {
-  color: rgb(0, 0, 0);
+  color: white;
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 24px;
 }
 .mindset-btn {
   color: rgb(241, 91, 34);
@@ -122,7 +126,8 @@ main {
   background-color: white;
   padding: 20px 36px;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
+  margin-top: 0px;
 }
 
 .footer {
@@ -130,6 +135,7 @@ main {
   background-color: black;
   padding: 130px 230px;
   gap: 330px;
+  margin-top: 130px;
 }
 .footer-title {
   color: rgb(248, 248, 248);
@@ -159,7 +165,7 @@ main {
   margin-bottom: 32px;
 }
 .footer-img {
-    display: inline;
+  display: inline;
   gap: 17px;
 }
 .title {
@@ -178,5 +184,5 @@ main {
   font-size: 18px;
   font-weight: 400;
   margin-top: 31px;
-  margin-bottom: 16;
+  margin-bottom: 16px;
 }
